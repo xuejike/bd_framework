@@ -12,10 +12,6 @@
     <!-- 以下为SpringMVC配置 -->
     <mvc:annotation-driven conversion-service="conversionService">
 
-        <mvc:argument-resolvers>
-            <bean class="com.bidanet.bdcms.plugin.shiro.web.bind.method.CurrentUserMethodArgumentResolver"/>
-        </mvc:argument-resolvers>
-
 
         <mvc:message-converters>
 
